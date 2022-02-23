@@ -1,0 +1,1722 @@
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#colorFondo {
+    background-color: #1f1f1f;
+    height: auto;  
+    width: auto; 
+}
+
+/*--- Grid Header */
+
+
+.contenedor__header {
+    background-color: #161616da;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    position: fixed;
+    justify-content: space-evenly;
+    border-bottom: #ff6701 solid 0.09rem;
+    border-radius: 0.7rem;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center ;
+    margin-left: 1.2rem;
+      
+}
+
+.header__logo img{
+    width: 30rem;
+    height: 6rem;
+
+    
+}
+
+.header__nav ul{
+    width: auto;
+    height: 6rem;
+    padding-top: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.header__nav li{ 
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header__nav li a {
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.3rem;
+    color: #ff6701;
+}
+
+.header__marcas nav{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.header__marcas img {
+    width: 7rem;
+    height: 5rem;
+    display: flex;
+    margin-top: 0.45rem;
+    border-radius: 0.5rem;
+}
+
+/*--- Main ---*/
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10rem 3rem 5rem 3rem;
+    width: auto;
+    height: auto;
+    align-content: space-around;
+}
+
+.secciones__titulo1 h2 {
+    width: auto;
+    height: 6rem;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+}
+
+.secciones__galeriaAutos1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
+}
+
+.secciones__galeriaAutos1 img {
+    width: 25rem;
+    height: 15rem;
+    margin: 1.5rem;
+    border: #ff6701 solid 0.15rem;
+    border-radius: 0.15rem;
+    object-fit: cover;
+}
+
+.secciones__texto1 p{
+    color: #eaeaea;
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+    text-align: center;
+    height: auto;
+    margin-top: 1.7rem;
+}
+
+.secciones__titulo2 h2 {
+    width: auto;
+    height: auto;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 6rem;
+}
+
+.secciones__galeriaAutos2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    object-fit: cover;
+}
+
+.secciones__galeriaAutos2 img {
+    width: 25rem;
+    height: 15rem;
+    margin: 1.5rem;
+    border: #ff6701 solid 0.15rem;
+    border-radius: 0.15rem;
+}
+
+.secciones__texto2 p{
+    color: #eaeaea;
+    font-size: 1.8rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+    text-align: center;
+    height:auto;
+    margin-top: 1.7rem;
+    margin-bottom: 6rem;
+}
+
+.pieDePag {
+    background-image:url("https://www.tapeciarnia.pl/tapety/normalne/240461_audi_rs_nissan_gtr.jpg");
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-right: 5rem;
+    justify-content:space-evenly;
+    height: 30rem;
+    width: 100%;
+}
+
+.pieDePag__texto {
+    font-size: 1.6rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 1px;
+    color: #161616;
+    -webkit-text-stroke: #ff6701 0.3px;
+    text-align: center;
+    width: 65rem;
+    padding-top: 10rem;
+}
+
+.pieDePag__redes {
+    width: 50rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.pieDePag__ico {
+    width: 3.7rem;
+    height: 3.7rem;
+    margin: 0.3rem;
+    padding: auto;
+}
+
+.fin__pag {
+    background-color: #161616;
+    height: 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:center; 
+    color: #eaeaea;
+    font-size: 1.3rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+}
+
+.fin__pag--Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.fin__pag--Logo div{
+    display: flex;
+    justify-content: center; 
+    align-items:flex-end;
+    width: 22rem;
+}
+
+.fin__pag--Logo img {
+    height: 3rem;
+    width: 13rem;
+}
+
+
+.fin__pag--Derechos span {
+    color:#49ff00;
+}
+
+.mapa iframe{
+    margin: 0;
+    padding: 0;
+    height: 40rem;
+    width: 100%;
+}
+    
+
+
+
+
+
+
+
+
+/* ---Sección NOSOTROS---*/
+
+/* #031e49 AZUL */
+/* #469afd CELESTE */
+/* #d10404 ROJO */
+
+.contenedor {
+    width: auto;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 10rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor h2 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    width: auto;
+    height: 6rem;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.contenedor__imagen {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background-color: #031e49;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 85%;
+    padding: 0.75rem;
+
+}
+
+.contenedor__imagen img{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    object-fit: cover;
+
+}
+
+.contenedor__imagen2 img{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    object-fit: cover;
+
+}
+
+.contenedor__texto {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #eaeaea;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor__texto p {
+    color: #469afd;
+    font-size: 1.7rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+}
+
+.contenedor__imagen2 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    background-color: #d10404;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 85%;
+    padding: 0.75rem;
+    justify-self: flex-end;
+    margin-top: 3rem;
+
+}
+
+.contenedor__imagen2 img{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.contenedor__texto2 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #469afd;
+    border-radius: 0.5rem;
+    height: 37rem;
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contenedor__texto2 p {
+    color: #eaeaea;
+    font-size: 1.7rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+}
+
+.contenedor__empleados {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-color: #eaeaea;
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    padding-top: 2rem;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.contenedor__empleados p {
+    font-size: 1.4rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #161616;
+}
+
+.empleado1 img{
+    width: 22rem;
+    height: 22rem;
+    border: #469afd solid 0.5rem;
+    border-radius: 1000rem;
+    object-fit: cover;
+}
+
+.empleado1 div p {
+    display: flex;
+    width: 22rem;
+    text-align: center;
+}
+
+.empleado2 img{
+    width: 22rem;
+    height: 22rem;
+    border: #031e49 solid 0.5rem;
+    border-radius: 1000rem;
+    object-fit: cover;
+
+}
+
+.empleado2 div p {
+    display: flex;
+    width: 22rem;
+    text-align: center;
+}
+
+.empleado3 img{
+    width: 22rem;
+    height: 22rem;
+    border: #d10404 solid 0.5rem;
+    border-radius: 1000rem;
+    object-fit: cover;
+
+}
+
+.empleado3 div p {
+    display: flex;
+    width: 22rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* ---Sección PREMIUM 0 KM--- */
+
+
+
+
+
+
+
+
+
+/* ---Sección PREMIUM USADOSSS --- */
+
+
+
+
+
+
+
+
+
+/* ---Sección POST-VENTA--- */
+
+.contenedor__postventa {
+    width: auto;
+    height: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor__postventa h2 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    width: auto;
+    height: 8rem;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.contenedor__sub--Service {
+    background-image:url("../assets/img/PostVenta/BMW-328-740x591.jpg");
+    background-position: 0% 53%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    justify-content:flex-start;
+    align-content: flex-end;
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor__sub--Service h3{
+    width: auto;
+    height: auto;
+    color: #ff6701;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    font-size: 5rem;
+    
+}
+
+.imagen1__service {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-color: #031e49;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+.imagen1__service img{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    object-fit: cover;
+}
+
+.imagen2__service {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: #d10404;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+
+.imagen2__service img{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    object-fit: cover;
+}
+
+.texto__service {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: #469afd;
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.texto__service p {
+    color: #eaeaea;
+    font-size: 1.7rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+}
+
+.contenedor__sub--Repuestos {
+    background-image:url("../assets/img/PostVenta/subtitulo__repuestos2.jpg");
+    background-position: 0% 56.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    justify-content:flex-start;
+    align-content: flex-end;
+    height: 20rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor__sub--Repuestos h3{
+    width: auto;
+    height: auto;
+    color: #ff6701;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    font-size: 5rem;
+    
+}
+
+.imagen1__repuestos {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    background-color: #d10404;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 100%;
+    padding: 0.75rem;
+    justify-self: flex-end;
+}
+
+.imagen1__repuestos img{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.imagen2__repuestos {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    background-color: #031e49;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 100%;
+    padding: 0.75rem;
+    justify-self: flex-end;
+
+}
+
+.imagen2__repuestos img{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.texto2__repuestos {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    background-color: #eaeaea;
+    border-radius: 0.5rem;
+    height: 37rem;
+    width: 100%;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.texto2__repuestos p {
+    color: #469afd;
+    font-size: 1.7rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
+/* ---Sección CONTACTO--- */
+
+.secciones__titulo--contacto h2 {
+    width: auto;
+    height: 6rem;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+    font-size: 6rem;
+}
+
+.formulario {
+    background-color: #161616;
+    height: auto;
+    width: 35rem;
+    margin-bottom: 4rem;
+    border: #ff6701 solid 0.1rem;
+}
+
+.escriba {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem 1rem 1rem;
+    align-content: center;
+}
+
+
+.formulario div{
+    font-family: 'Baloo 2', cursive;
+    color: #ff6701;
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+}
+
+.escriba input{
+    font-family: 'Baloo 2', cursive;
+}
+
+.escriba textarea {
+    font-family: 'Baloo 2', cursive;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    justify-content: center;   
+}
+.boton input {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #161616;
+    color: #eaeaea;    
+    width: 6.5rem;
+    font-size: 1.6rem;
+}
+
+::placeholder {
+    color: #161616;
+    background-color: #eaeaea;
+}
+
+.condiciones {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    justify-content: flex-end; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------*/
+
+
+
+
+
+
+/* ---Media Queries--- */
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    
+    .pieDePag {
+        padding: 0;
+        margin: 0;
+    }
+
+    .pieDePag__redes {
+        width: 70rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    
+    .header__logo {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .header__logo img{
+        width: 23rem;
+        height: 5rem;
+    }
+
+    .header__nav li a {
+        font-size: 2rem;
+    }
+
+    .header__marcas img {
+        width: 5rem;
+        height: 4rem;
+        margin-top: 1.5rem;
+    }
+
+    .secciones {
+        justify-content: center;
+        padding: 5rem 1.5rem 2.5rem 1.5rem;
+         }
+
+    .secciones__titulo1 h2 {
+        height: 5.5rem;
+        margin-top: 5rem;
+        font-size: 4rem;
+    }
+
+    .secciones__galeriaAutos1 img {
+        width: 18rem;
+        height: 10rem;
+        margin: 1.3rem;
+    }
+
+
+    .secciones__texto1 p {
+        font-size: 1.5rem;
+        height: 10rem;
+        width: auto;
+    }
+
+    .secciones__titulo2 h2 {
+        height: 5rem;
+        margin-top: 4rem;
+        font-size: 4rem;
+    }
+    
+    .secciones__galeriaAutos2 img {
+        width: 18rem;
+        height: 10rem;
+        margin: 1.3rem;
+    }
+    
+    .secciones__texto2 p {
+        font-size: 1.5rem;
+        height: 10rem;
+        width: auto;
+    } 
+
+    .pieDePag__texto {
+        font-size: 1.5rem;
+        padding-top: 7.5rem;
+        padding-right: 3rem;
+    }
+
+    .secciones__titulo--contacto {
+        margin-top: 4.5rem;
+    }
+                                
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .contenedor__header {
+        height: auto;
+        width: auto;
+    }
+    
+    .header__logo {
+        margin-left: 0.7rem;
+        margin-top: 0.7rem;
+    }
+
+    .header__logo img {
+        width: 18rem;
+        height: 4rem;
+    }
+
+    .header__nav li a {
+        font-size: 1.5rem;
+    }
+
+    .header__marcas {
+        align-items: center;
+    }
+
+    .header__marcas img {
+        width: 4rem;
+        height: 3rem;
+        display: flex;
+        padding-top: 0rem;
+    }  
+
+    .secciones {
+        justify-content: center;
+        padding: 3.5rem 1rem 1.8rem 1rem;
+    }
+
+    .secciones__titulo1 {
+        width: 76.8rem;
+    }
+
+    .secciones__titulo1 h2 {
+        height: 5.5rem;
+        margin-top: 5rem;
+        font-size: 3.2rem;
+    }
+
+    .secciones__galeriaAutos1 img {
+        width: 16rem;
+        height: 9rem;
+        margin: 1rem;
+    }
+
+    .secciones__texto1 {
+        width: 76rem;
+    }
+
+    .secciones__texto1 p {
+        font-size: 1.5rem;
+        height: 10rem;
+        width: auto;
+        margin: 1rem;
+    }
+
+    .secciones__titulo2 h2 {
+        height: 5.5rem;
+        margin-top: 1.6rem;
+        font-size: 3.2rem;
+    }
+    
+    .secciones__galeriaAutos2 img {
+        width: 16rem;
+        height: 9rem;
+        margin: 1rem;
+    }
+    
+    .secciones__texto2 {
+        width: 76rem;
+    }
+
+    .secciones__texto2 p {
+        font-size: 1.5rem;
+        height: 10rem;
+        width: auto;
+        margin: 1rem;
+    } 
+
+    .pieDePag__texto {
+        font-size: 1.2rem;
+        padding-top: 5rem;
+        padding-right: 2.2rem;
+    }
+
+    .pieDePag__ico {
+        width: 3rem;
+        height: 3rem;
+        margin: 0.3rem;
+        padding: auto;
+    }
+
+    .fin__pag {
+        height: 7.2rem;
+        font-size: 1rem;
+    }
+
+    .fin__pag--Logo img{
+        height: 2.5rem;
+        width: 12rem;
+    }
+    .secciones__titulo--contacto {
+        margin-top: 4.5rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    
+    .contenedor__header {
+        width: 42.5rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 7rem 4rem;
+        gap: 0.4rem;
+
+    }
+
+    .header__logo {
+        display: flex;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        height: auto;
+        width: auto;
+    }
+
+    .header__logo img{
+        width: 20rem;
+        height: 7rem;
+        padding: 0.5rem;
+        
+    }
+    
+    .header__marcas {
+        width: auto;
+        height: auto;
+        justify-content:space-evenly;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .header__marcas img {
+        width: 4.7rem;
+        height: 4rem;
+        margin-top: 2rem;
+        margin-right: 0rem;
+    }
+
+    .header__nav {
+        width: auto;
+        height: 4.7rem;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        align-self: flex-end;
+        justify-self:stretch;
+    }
+    
+    .header__nav li{ 
+        list-style-type: none;
+        display: inline-block;
+    }
+    
+    .header__nav li a {
+        text-decoration: none;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 1.8rem;
+        color: #ff6701;
+    }
+    
+    .secciones {
+        padding: 0;
+        margin: 0;
+        width: 42.5rem;
+        height: auto;
+        padding-top: 8.5rem;
+    }
+
+    .secciones__titulo1 {
+        width: 42.5rem;
+    }
+
+    .secciones__titulo--contacto h2{
+        font-size: 3.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__titulo1 h2{
+        font-size: 3.2rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__galeriaAutos1 {
+        width: 42rem;
+        display: grid;
+        grid-template-columns: 19rem 19rem;
+        grid-template-rows: 12rem 12rem;
+        gap: 0.7rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos1 img{
+        width: 18rem;
+        height: 10rem;
+    }
+
+    .secciones__texto1 {
+        width: 42.5rem;
+        margin-bottom: 0rem;
+    }
+    
+    .secciones__texto1 p {
+        font-size: 1.2rem;
+        height: 15rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__titulo2 {
+        width: 42.5rem;
+    }
+
+    .secciones__galeriaAutos2 {
+        width: 42rem;
+        display: grid;
+        grid-template-columns: 19rem 19rem;
+        grid-template-rows: 12rem 12rem;
+        gap: 0.7rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos2 img{
+        width: 18rem;
+        height: 10rem;
+    }
+    .secciones__texto2 {
+        width: 42.5rem;
+    }
+    
+    .secciones__texto2 p {
+        font-size: 1.2rem;
+        height: 15rem;
+        margin-top: 1rem;
+    }
+
+    .pieDePag {
+        background-position: 0% 72%;
+        height: 10rem;
+    }
+
+    .pieDePag__texto {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        
+    }
+
+    .pieDePag__ico {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.15rem;
+    }
+
+    .fin__pag {
+        height: 4rem;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .fin__pag--Logo img{
+        height: 2rem;
+        width: 8rem;
+        margin-left: 0.5rem;
+    }
+
+    .pieDePag__redes img {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    .fin__pag--Derechos {
+        padding-right: 0.5rem;
+    }
+
+
+
+    /* ---Sección NOSOTROS--- */
+
+    .contenedor {
+        width: 42.5rem; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor h2 {
+        width: 42.5rem;
+        height: auto;
+        font-size: 3.2rem;
+        margin-top: 5rem;
+        margin-bottom: 0;
+    }
+
+    .contenedor__imagen img{
+        width: 34.5rem;
+        height: auto;
+        justify-items: center;
+
+    }
+
+    .contenedor__texto  {
+        width: 36.1rem;
+        height: auto;
+    }
+
+    .contenedor__imagen2 img{
+        width: 34.5rem;
+        height: auto;
+        justify-items: center;
+
+    }
+
+    .contenedor__texto2  {
+        width: 36.1rem;
+        height: auto;
+    }
+
+    .contenedor__empleados {
+        width: 40rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedor__empleados img {
+        width: 19rem;
+        height: 19rem;
+
+    }
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+
+
+
+
+
+
+
+    .contenedor__header {
+        width: 37.5rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6rem 4.5rem 3rem;
+        gap: 0.3rem;
+    }
+
+    .header__logo {
+        display: flex;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+
+    .header__logo img{
+        width: 20rem;
+        height: 6rem;
+        padding: 0.5rem;
+    }
+
+    .header__marcas nav {
+        margin-right: 0rem;
+    }
+
+    .header__marcas {
+        width: 37.5rem;
+        height: 5rem;
+        justify-content: space-evenly;
+        align-content: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2 ;
+    }
+
+    .header__marcas img {
+        width: 8rem;
+        height: 4rem;
+        margin-top: 1rem;
+
+    }
+    
+    .header__nav {
+        width: auto;
+        height: 4rem;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        align-self: flex-end;
+        justify-self:stretch;
+    }
+
+    .header__nav li a {
+        font-size: 1.5rem;
+    }
+
+    .header__nav ul{
+        width: 37.5rem;
+        height: 3rem;
+        display: flex;
+        padding-top: 1.6rem;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+    
+    .secciones {
+        padding: 0;
+        margin: 0;
+        width: 37.5rem;
+        height: auto;
+        padding-top: 12rem;
+    }
+
+    .secciones__titulo1 {
+        width: 37.5rem;
+    }
+
+    .secciones__galeriaAutos1 {
+        width: 37rem;
+        display: grid;
+        grid-template-columns: 17rem 17rem;
+        grid-template-rows: 10rem 10rem;
+        gap: 0.5rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos1 img{
+        width: 16.5rem;
+        height: 8rem;
+    }
+
+    .secciones__texto1 {
+        width: 37.5rem;
+        margin-bottom: 0rem;
+    }
+    
+    .secciones__texto1 p {
+        font-size: 1.2rem;
+        height: 15rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__titulo2 {
+        width: 37.5rem;
+    }
+
+    .secciones__galeriaAutos2 {
+        width: 37rem;
+        display: grid;
+        grid-template-columns: 17rem 17rem;
+        grid-template-rows: 10rem 10rem;
+        gap: 0.5rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos2 img{
+        width: 16.5rem;
+        height: 8rem;
+    }
+    .secciones__texto2 {
+        width: 37.5rem;
+    }
+    
+    .secciones__texto2 p {
+        font-size: 1.2rem;
+        height: 15rem;
+        margin-top: 1rem;
+    }
+
+    .pieDePag__texto {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        
+    }
+
+    .pieDePag__ico {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .fin__pag {
+        display: flex;
+        flex-direction: column;
+        height: 8.5rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .fin__pag--Logo {
+        flex-direction: column;
+        height: 6rem;
+        align-items: center;
+    }
+
+    .fin__pag--Logo img{
+        height: 3.5rem;
+        width: 10rem;
+        margin-top: 1rem;
+        
+    }
+}
+
+    /* ---Sección NOSOTROS--- */
+
+    .contenedor {
+        width: 37.5rem; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor h2 {
+        width: 37.5rem;
+        height: auto;
+        font-size: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 0;
+    }
+
+    .contenedor__imagen img{
+        width: 30.5rem;
+        height: auto;
+        justify-items: center;
+
+    }
+
+    .contenedor__texto  {
+        width: 28.1rem;
+        height: auto;
+    }
+
+    .contenedor__imagen2 img{
+        width: 30.5rem;
+        height: auto;
+        justify-items: center;
+
+    }
+
+    .contenedor__texto2  {
+        width: 28.1rem;
+        height: auto;
+    }
+
+    .contenedor__empleados {
+        width: 35rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedor__empleados img {
+        width: 19rem;
+        height: 19rem;
+
+    }
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+
+    .contenedor__header {
+        width: 32rem;
+        gap: 0.15rem;
+        grid-template-rows: 4.5rem 4.5rem 3rem;
+    }
+
+    .header__logo {
+        width: 32rem;
+        margin-top: 0rem
+    }
+
+    .header__marcas {
+        width: 32rem;
+        height: 5rem;
+        justify-content: space-evenly;
+        align-content: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2 ;
+    }
+
+    .header__marcas img {
+        width: 7rem;
+        height: 3.5rem;
+        margin-top: 0.7rem;
+    }
+
+    .header__nav {
+        width: 32rem;
+        align-self: flex-end;
+        justify-self:center;
+    }
+
+    .header__nav li a {
+        font-size: 1.4rem;
+    }
+
+    .header__nav ul {
+        width: 32rem;
+        height: 3rem;
+        display: flex;
+        padding-top: 1.6rem;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .header__marcas nav {
+        margin-right: 0rem;
+        margin-left: 0.8rem;
+    }
+
+    .secciones {
+        width: 32rem;
+        height: auto;
+        padding-top: 9.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .secciones__titulo1 {
+        width: 32rem;
+        height: 10rem;
+    }
+
+    .secciones__titulo1 h2 {
+        font-size: 2.7rem;
+    }
+
+    .secciones__galeriaAutos1 {
+        width: 32rem;
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: 8rem 8rem;
+        gap: 0rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos1 img {
+        width: 14.5rem;
+        height: 7rem;
+    }
+
+    .secciones__texto1 {
+        width: 32rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__titulo2 {
+        width: 32rem;
+    }
+
+    .secciones__titulo2 h2{
+        font-size: 2.7rem;
+    }
+    
+    .secciones__galeriaAutos2 {
+        width: 32rem;
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: 8rem 8rem;
+        gap: 0rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .secciones__galeriaAutos2 img {
+        width: 14.5rem;
+        height: 7rem;
+    }
+    
+    .secciones__texto2 {
+        width: 32rem;
+        margin-bottom: 0rem;
+    }
+
+
+
+
+
+
+    
+    
+    
+    /* --- Seccion NOSOTROS--- */
+  
+
+        .contenedor {
+            width: 32rem; 
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .contenedor h2 {
+            width: 32rem;
+            height: auto;
+            font-size: 2.9rem;
+            margin-top: 4rem;
+            margin-bottom: 0;
+        }
+    
+        .contenedor__imagen img{
+            width: 25.7rem;
+            height: auto;
+            justify-items: center;
+    
+        }
+    
+        .contenedor__texto  {
+            width: 30.1rem;
+            height: auto;
+        }
+    
+        .contenedor__imagen2 img{
+            width: 25.7rem;
+            height: auto;
+            justify-items: center;
+    
+        }
+    
+        .contenedor__texto2  {
+            width: 30.1rem;
+            height: auto;
+        }
+    
+        .contenedor__empleados {
+            width: 30rem;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .contenedor__empleados img {
+            width: 15rem;
+            height: 15rem;
+    
+        }
+    
+
+
+
+
+
+
+
+
+
+    /* ---Seccion CONTACTO--- */
+    
+    .secciones__titulo--contacto h2 {
+    height: 3.5rem;
+    text-align: center;
+    margin-bottom: 2.3rem;
+    font-size: 2.7rem;
+    }
+    
+    .formulario {
+    height: auto;
+    width: 28rem;
+    margin-bottom: 4rem;  
+    }   
+    
+    .formulario div {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    }
+    
+    .boton input {
+    width: 5rem;
+    font-size: 1.3rem;
+    }
+}
+}
