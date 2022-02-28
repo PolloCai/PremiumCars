@@ -1,0 +1,947 @@
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#colorFondo {
+  background-color: #1f1f1f;
+  height: auto;
+  width: auto;
+}
+
+.header {
+  background-color: #161616da;
+  width: 100%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  gap: 1rem;
+  position: fixed;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: #ff6701 solid 0.09rem;
+  border-radius: 0.7rem;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 1.2rem;
+}
+
+.header__logo img {
+  width: 30rem;
+  height: 6rem;
+}
+
+.header__nav ul {
+  width: auto;
+  height: 6rem;
+  padding-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header__nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header__nav ul li a {
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2.3rem;
+  color: #ff6701;
+}
+
+.header__marcas nav {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 1.2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__marcas nav img {
+  width: 7rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.45rem;
+  border-radius: 0.5rem;
+}
+
+.secciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10rem 3rem 5rem 3rem;
+  width: auto;
+  height: auto;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.secciones__titulo1 h2 {
+  width: auto;
+  height: 6rem;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 6rem;
+}
+
+.secciones__galeriaAutos1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+}
+
+.secciones__galeriaAutos1 img {
+  width: 25rem;
+  height: 15rem;
+  margin: 1.5rem;
+  border: #ff6701 solid 0.15rem;
+  border-radius: 0.15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.secciones__texto1 p {
+  color: #eaeaea;
+  font-size: 1.8rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+  text-align: center;
+  height: auto;
+  margin-top: 1.7rem;
+}
+
+.secciones__titulo2 h2 {
+  width: auto;
+  height: auto;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 6rem;
+}
+
+.secciones__galeriaAutos2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.secciones__galeriaAutos2 img {
+  width: 25rem;
+  height: 15rem;
+  margin: 1.5rem;
+  border: #ff6701 solid 0.15rem;
+  border-radius: 0.15rem;
+}
+
+.secciones__texto2 p {
+  color: #eaeaea;
+  font-size: 1.8rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+  text-align: center;
+  height: auto;
+  margin-top: 1.7rem;
+  margin-bottom: 6rem;
+}
+
+.pieDePag {
+  background-image: url("https://www.tapeciarnia.pl/tapety/normalne/240461_audi_rs_nissan_gtr.jpg");
+  background-position: 0% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 5rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 30rem;
+  width: 100%;
+}
+
+.pieDePag__redes {
+  width: 50rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pieDePag__redes img {
+  width: 3.7rem;
+  height: 3.7rem;
+  margin: 0.3rem;
+  padding: auto;
+}
+
+.pieDePag__texto {
+  font-size: 1.6rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 1.5rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 1px;
+  color: #161616;
+  -webkit-text-stroke: #ff6701 0.3px;
+  text-align: center;
+  width: 65rem;
+  padding-top: 10rem;
+}
+
+.fin__pag {
+  background-color: #161616;
+  height: 10rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  color: #eaeaea;
+  font-size: 1.3rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.fin__pagLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.fin__pagLogo img {
+  height: 3rem;
+  width: 13rem;
+}
+
+.fin__pagLogo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 22rem;
+}
+
+.fin__pagDerechos span {
+  color: #49ff00;
+}
+
+.contenedor {
+  width: auto;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+}
+
+.contenedor h2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  width: auto;
+  height: 6rem;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.contenedor__imagen {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2 / 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-color: #031e49;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 85%;
+  padding: 0.75rem;
+}
+
+.contenedor__imagen img {
+  width: 100%;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__texto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contenedor__imagen2 img {
+  width: 100%;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__texto p {
+  color: #469afd;
+  font-size: 1.7rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.contenedor__imagen2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background-color: #d10404;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 85%;
+  padding: 0.75rem;
+  justify-self: flex-end;
+  margin-top: 3rem;
+}
+
+.contenedor__imagen2 img {
+  width: 100%;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__texto2 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background-color: #469afd;
+  border-radius: 0.5rem;
+  height: 37rem;
+  width: 100%;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contenedor__texto2 p {
+  color: #eaeaea;
+  font-size: 1.7rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.contenedor__empleados {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  background-color: #eaeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  padding-top: 2rem;
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+  width: 100%;
+  height: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor__empleados .empleado1 img {
+  width: 22rem;
+  height: 22rem;
+  border: #469afd solid 0.5rem;
+  border-radius: 1000rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__empleados .empleado1 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #161616;
+}
+
+.contenedor__empleados .empleado2 img {
+  width: 22rem;
+  height: 22rem;
+  border: #031e49 solid 0.5rem;
+  border-radius: 1000rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__empleados .empleado2 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #161616;
+}
+
+.contenedor__empleados .empleado3 img {
+  width: 22rem;
+  height: 22rem;
+  border: #d10404 solid 0.5rem;
+  border-radius: 1000rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__empleados .empleado3 p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 22rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #161616;
+}
+
+.contenedor__postventa {
+  width: auto;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 10rem;
+  padding-top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.7rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+}
+
+.contenedor__postventa h2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  width: auto;
+  height: 8rem;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.contenedor__postventa .contenedor__sub--Service {
+  background-image: url("../assets/img/PostVenta/BMW-328-740x591.jpg");
+  background-position: 0% 53%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  height: 20rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contenedor__postventa .contenedor__sub--Service h3 {
+  width: auto;
+  height: auto;
+  color: #ff6701;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  font-size: 5rem;
+}
+
+.contenedor__postventa .imagen1__service {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background-color: #031e49;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.contenedor__postventa .imagen1__service img {
+  width: 100%;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__postventa .imagen2__service {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background-color: #d10404;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.contenedor__postventa .imagen2__service img {
+  width: 100%;
+  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__postventa .texto__service {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  background-color: #469afd;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contenedor__postventa .texto__service p {
+  color: #eaeaea;
+  font-size: 1.7rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.contenedor__postventa .contenedor__sub--Repuestos {
+  background-image: url("../assets/img/PostVenta/subtitulo__repuestos2.jpg");
+  background-position: 0% 56.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  height: 20rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+
+.contenedor__postventa .contenedor__sub--Repuestos h3 {
+  width: auto;
+  height: auto;
+  color: #ff6701;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  font-size: 5rem;
+}
+
+.contenedor__postventa .imagen1__repuestos {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / 6;
+  background-color: #d10404;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 100%;
+  padding: 0.75rem;
+  justify-self: flex-end;
+}
+
+.contenedor__postventa .imagen1__repuestos img {
+  width: 100%;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__postventa .imagen2__repuestos {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / 6;
+  background-color: #031e49;
+  border-radius: 0.5rem;
+  height: auto;
+  width: 100%;
+  padding: 0.75rem;
+  justify-self: flex-end;
+}
+
+.contenedor__postventa .imagen2__repuestos img {
+  width: 100%;
+  height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor__postventa .texto2__repuestos {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / 6;
+  background-color: #eaeaea;
+  border-radius: 0.5rem;
+  height: 37rem;
+  width: 100%;
+  padding: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contenedor__postventa .texto2__repuestos p {
+  color: #469afd;
+  font-size: 1.7rem;
+  font-family: 'EB Garamond', serif;
+  line-height: 2.1rem;
+  letter-spacing: 0.09rem;
+  word-spacing: 0.1rem;
+}
+
+.mapa iframe {
+  margin: 0;
+  padding: 0;
+  height: 40rem;
+  width: 100%;
+}
+
+.secciones__titulo--contacto h2 {
+  width: auto;
+  height: 6rem;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 6rem;
+  margin-top: 1rem;
+  font-size: 6rem;
+}
+
+.formulario {
+  background-color: #161616;
+  height: auto;
+  width: 35rem;
+  margin-bottom: 4rem;
+  border: #ff6701 solid 0.1rem;
+}
+
+.formulario .escriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0rem 1rem 1rem 1rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.formulario .escriba div {
+  font-family: 'Baloo 2', cursive;
+  color: #ff6701;
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.formulario .escriba input {
+  font-family: 'Baloo 2', cursive;
+}
+
+.formulario .escriba textarea {
+  font-family: 'Baloo 2', cursive;
+}
+
+.formulario .escriba ::-webkit-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba :-ms-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba ::-ms-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba ::placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario .escriba .boton input {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #161616;
+  color: #eaeaea;
+  width: 6.5rem;
+  font-size: 1.6rem;
+}
+
+.formulario .escriba .condiciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=main.css.map */

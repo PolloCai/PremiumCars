@@ -1,0 +1,60 @@
+.secciones__titulo--contacto h2 {
+    width: auto;
+    height: 6rem;
+    color: #49ff00;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+    font-size: 6rem;
+}
+.formulario {
+    background-color: #161616;
+    height: auto;
+    width: 35rem;
+    margin-bottom: 4rem;
+    border: #ff6701 solid 0.1rem;
+    .escriba {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 1rem 1rem 1rem;
+        align-content: center;
+            div{
+            font-family: 'Baloo 2', cursive;
+            color: #ff6701;
+            margin-top: 0.75rem;
+            font-size: 1.5rem;
+        }
+            input{
+            font-family: 'Baloo 2', cursive;
+        }            
+            textarea {
+                font-family: 'Baloo 2', cursive;
+            }
+            ::placeholder {
+                color: #161616;
+                background-color: #eaeaea;
+            }           
+            .boton {
+                display: flex;
+                flex-direction: row;
+                width: auto;
+                height: auto;
+                justify-content: center;   
+                input {
+                    font-family: 'Bebas Neue', cursive;
+                    background-color: #161616;
+                    color: #eaeaea;    
+                    width: 6.5rem;
+                    font-size: 1.6rem;
+                }        
+            }
+            .condiciones {
+                display: flex;
+                flex-direction: row;
+                width: auto;
+                height: auto;
+                justify-content: flex-end; 
+            }
+    }
+}

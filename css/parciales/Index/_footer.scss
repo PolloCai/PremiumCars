@@ -1,0 +1,75 @@
+.pieDePag {
+    background-image:url("https://www.tapeciarnia.pl/tapety/normalne/240461_audi_rs_nissan_gtr.jpg");
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-right: 5rem;
+    justify-content:space-evenly;
+    height: 30rem;
+    width: 100%;
+    &__redes {
+        width: 50rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        & img{
+            width: 3.7rem;
+            height: 3.7rem;
+            margin: 0.3rem;
+            padding: auto;
+        }
+    }
+    &__texto {
+        font-size: 1.6rem;
+        font-family: 'EB Garamond', serif;
+        line-height: 1.5rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 1px;
+        color: #161616;
+        -webkit-text-stroke: #ff6701 0.3px;
+        text-align: center;
+        width: 65rem;
+        padding-top: 10rem;
+    }
+}
+
+.fin__pag {
+    background-color: #161616;
+    height: 10rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:center; 
+    color: #eaeaea;
+    font-size: 1.3rem;
+    font-family: 'EB Garamond', serif;
+    line-height: 2.1rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.1rem;
+    &Logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        img {
+            height: 3rem;
+            width: 13rem;
+        }
+        div {
+            display: flex;
+            justify-content: center; 
+            align-items:flex-end;
+            width: 22rem;
+        }
+    }
+    
+    &Derechos span {
+        color:#49ff00;
+    }
+}

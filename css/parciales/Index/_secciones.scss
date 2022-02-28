@@ -1,0 +1,80 @@
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10rem 3rem 5rem 3rem;
+    width: auto;
+    height: auto;
+    align-content: space-around;
+    &__titulo1 h2 {
+        width: auto;
+        height: 6rem;
+        color: #49ff00;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 6rem;
+    }
+    &__galeriaAutos1 {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: no-wrap;
+        img {
+            width: 25rem;
+            height: 15rem;
+            margin: 1.5rem;
+            border: #ff6701 solid 0.15rem;
+            border-radius: 0.15rem;
+            object-fit: cover;
+        }
+    }
+    &__texto1 p{
+        color: #eaeaea;
+        font-size: 1.8rem;
+        font-family: 'EB Garamond', serif;
+        line-height: 2.1rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.1rem;
+        text-align: center;
+        height: auto;
+        margin-top: 1.7rem;
+    }
+    &__titulo2 h2 {
+        width: auto;
+        height: auto;
+        color: #49ff00;
+        font-family: 'Anton', sans-serif;
+        text-align: center;
+        margin-top: 6rem;
+        font-size: 6rem;
+    }
+    &__galeriaAutos2 {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: no-wrap;
+        object-fit: cover;
+        img {
+            width: 25rem;
+            height: 15rem;
+            margin: 1.5rem;
+            border: #ff6701 solid 0.15rem;
+            border-radius: 0.15rem;
+        }
+    }
+    &__texto2 p{
+        color: #eaeaea;
+        font-size: 1.8rem;
+        font-family: 'EB Garamond', serif;
+        line-height: 2.1rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.1rem;
+        text-align: center;
+        height:auto;
+        margin-top: 1.7rem;
+        margin-bottom: 6rem;
+    }
+}
+

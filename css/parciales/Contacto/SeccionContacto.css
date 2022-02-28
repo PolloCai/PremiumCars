@@ -1,0 +1,105 @@
+.secciones__titulo--contacto h2 {
+  width: auto;
+  height: 6rem;
+  color: #49ff00;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  margin-bottom: 6rem;
+  margin-top: 1rem;
+  font-size: 6rem;
+}
+
+.formulario {
+  background-color: #161616;
+  height: auto;
+  width: 35rem;
+  margin-bottom: 4rem;
+  border: #ff6701 solid 0.1rem;
+}
+
+.formulario .escriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0rem 1rem 1rem 1rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.formulario .escriba div {
+  font-family: 'Baloo 2', cursive;
+  color: #ff6701;
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.formulario .escriba input {
+  font-family: 'Baloo 2', cursive;
+}
+
+.formulario .escriba textarea {
+  font-family: 'Baloo 2', cursive;
+}
+
+.formulario .escriba ::-webkit-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba :-ms-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba ::-ms-input-placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba ::placeholder {
+  color: #161616;
+  background-color: #eaeaea;
+}
+
+.formulario .escriba .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario .escriba .boton input {
+  font-family: 'Bebas Neue', cursive;
+  background-color: #161616;
+  color: #eaeaea;
+  width: 6.5rem;
+  font-size: 1.6rem;
+}
+
+.formulario .escriba .condiciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=SeccionContacto.css.map */
