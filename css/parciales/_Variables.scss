@@ -1,0 +1,53 @@
+// mixin//
+
+@mixin super__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.super__center {
+    @include super__center;    
+}
+
+//maps//
+
+$coloresbmw: (
+    celeste: #469afd,
+    azul: #031e49,
+    rojo: #d10404,
+    blanco: #eaeaea,
+);
+
+@each $fondo, $color in $coloresbmw {
+    .imagen--#{$fondo} {
+    background-color: $color;
+    }
+}
+
+
+$estilos: (
+    colorete: #eaeaea,
+    tamaño: 1.8rem,
+    fuente: 'EB Garamond', serif,
+    espacio: 2.1rem,
+    entrepalabras: 0.09rem,
+    entreletras: 0.1rem,
+    centro: center,
+    alto:auto,
+    margensup: 1.7rem,
+    margeninf: 6rem,
+);
+
+.seccion__texto p {
+    color: map-get($estilos, colorete);
+    font-size: map-get($estilos, tamaño);
+    font-family: map-get( $estilos: fuente);
+    line-height: map-get($estilos, espacio);
+    letter-spacing: map-get($estilos, entrepalabras);
+    word-spacing: map-get($estilos, entreletras);
+    text-align: map-get($estilos, centro);
+    height: map-get($estilos, alto);
+    margin-top: map-get($estilos, margensup);
+    margin-bottom: map-get($estilos, margeninf); 
+}

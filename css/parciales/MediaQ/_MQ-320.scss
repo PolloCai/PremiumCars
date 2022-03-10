@@ -1,0 +1,207 @@
+@media screen and (max-width: 320px) {
+    
+    .header {
+        width: 32rem;
+        gap: 0.15rem;
+        grid-template-rows: 4.5rem 4.5rem 3rem;
+    }
+
+    .header__logo {
+        width: 32rem;
+        margin-top: 0rem
+    }
+
+    .header__marcas {
+        width: 32rem;
+        height: 5rem;
+        justify-content: space-evenly;
+        align-content: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2 ;
+    }
+
+    .header__marcas nav img {
+        width: 7rem;
+        height: 3.5rem;
+        margin-top: 0.7rem;
+    }
+
+    .header__nav {
+        width: 32rem;
+        align-self: flex-end;
+        justify-self:center;
+    }
+
+    .header__nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    .header__nav ul {
+        width: 32rem;
+        height: 3rem;
+        display: flex;
+        padding-top: 1.6rem;
+        align-content: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .header__marcas nav {
+        margin-right: 0rem;
+        margin-left: 0.8rem;
+    }
+
+    .secciones {
+        width: 32rem;
+        height: auto;
+        padding-top: 9.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .secciones__titulo1 {
+        width: 32rem;
+        height: 10rem;
+    }
+
+    .secciones__titulo1 h2 {
+        font-size: 2.7rem;
+    }
+
+    .secciones__galeriaAutos1 {
+        width: 32rem;
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: 8rem 8rem;
+        gap: 0rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .secciones__galeriaAutos1 img {
+        width: 14.5rem;
+        height: 7rem;
+    }
+
+    .secciones__texto1 {
+        width: 32rem;
+        margin-bottom: 0rem;
+    }
+
+    .secciones__titulo2 {
+        width: 32rem;
+    }
+
+    .secciones__titulo2 h2{
+        font-size: 2.7rem;
+    }
+    
+    .secciones__galeriaAutos2 {
+        width: 32rem;
+        display: grid;
+        grid-template-columns: 15rem 15rem;
+        grid-template-rows: 8rem 8rem;
+        gap: 0rem;
+        width: auto;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .secciones__galeriaAutos2 img {
+        width: 14.5rem;
+        height: 7rem;
+    }
+    
+    .secciones__texto2 {
+        width: 32rem;
+        margin-bottom: 0rem;
+    }
+
+    .fin__pag {
+        padding-left: 4rem;
+    }
+    
+    /* --- Seccion NOSOTROS--- */
+  
+
+        .contenedor {
+            width: 32rem; 
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .contenedor h2 {
+            width: 32rem;
+            height: auto;
+            font-size: 2.9rem;
+            margin-top: 4rem;
+            margin-bottom: 0;
+        }
+    
+        .contenedor__imagen img{
+            width: 25.7rem;
+            height: auto;
+            justify-items: center;
+    
+        }
+    
+        .contenedor__texto  {
+            width: 30.1rem;
+            height: auto;
+        }
+    
+        .contenedor__imagen2 img{
+            width: 25.7rem;
+            height: auto;
+            justify-items: center;
+    
+        }
+    
+        .contenedor__texto2  {
+            width: 30.1rem;
+            height: auto;
+        }
+    
+        .contenedor__empleados {
+            width: 30rem;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .contenedor__empleados img {
+            width: 15rem;
+            height: 15rem;
+    
+        }
+
+
+    /* ---Seccion CONTACTO--- */
+    
+    .secciones__titulo--contacto h2 {
+    height: 3.5rem;
+    text-align: center;
+    margin-bottom: 2.3rem;
+    font-size: 2.7rem;
+    }
+    
+    .formulario {
+    height: auto;
+    width: 28rem;
+    margin-bottom: 4rem;  
+    }   
+    
+    .formulario div {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    }
+    
+    .boton input {
+    width: 5rem;
+    font-size: 1.3rem;
+    }
+}

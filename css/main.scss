@@ -1,11 +1,17 @@
+@import "./Parciales/Variables";
 @import "./parciales/Index/reset";
 @import "./parciales/Index/header";
 @import "./parciales/Index/secciones";
 @import "./parciales/Index/footer";
-
 @import "./parciales/Nosotros/secciones";
 @import "./parciales/PostVenta/seccionpostventa";
-@import "./parciales/Contacto/SeccionContacto.scss"
+@import "./parciales/Contacto/SeccionContacto.scss";
+@import "./parciales/MediaQ/MQ-1440";
+@import "./parciales/MediaQ/MQ-1024";
+@import "./parciales/MediaQ/MQ-768";
+@import "./parciales/MediaQ/MQ-425";
+@import "./parciales/MediaQ/MQ-375";
+@import "./parciales/MediaQ/MQ-320";
 
 
 

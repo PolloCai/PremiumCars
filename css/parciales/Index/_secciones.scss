@@ -19,7 +19,7 @@
     &__galeriaAutos1 {
         flex-direction: row;
         display: flex;
-        justify-content: center;
+
         flex-wrap: no-wrap;
         img {
             width: 25rem;
@@ -30,17 +30,7 @@
             object-fit: cover;
         }
     }
-    &__texto1 p{
-        color: #eaeaea;
-        font-size: 1.8rem;
-        font-family: 'EB Garamond', serif;
-        line-height: 2.1rem;
-        letter-spacing: 0.09rem;
-        word-spacing: 0.1rem;
-        text-align: center;
-        height: auto;
-        margin-top: 1.7rem;
-    }
+
     &__titulo2 h2 {
         width: auto;
         height: auto;
@@ -55,8 +45,8 @@
         display: flex;
         justify-content: center;
         flex-wrap: no-wrap;
-        object-fit: cover;
         img {
+            object-fit: cover;
             width: 25rem;
             height: 15rem;
             margin: 1.5rem;
@@ -64,17 +54,6 @@
             border-radius: 0.15rem;
         }
     }
-    &__texto2 p{
-        color: #eaeaea;
-        font-size: 1.8rem;
-        font-family: 'EB Garamond', serif;
-        line-height: 2.1rem;
-        letter-spacing: 0.09rem;
-        word-spacing: 0.1rem;
-        text-align: center;
-        height:auto;
-        margin-top: 1.7rem;
-        margin-bottom: 6rem;
-    }
+
 }
 
